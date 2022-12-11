@@ -1,6 +1,6 @@
 {
   "extends": "@tsconfig/node18/tsconfig.json",
-  "compilerOptions": {"outDir": "dist"},
+  "compilerOptions": { "outDir": "dist", "esModuleInterop": true },
   "include": ["src", "index.ts", "models"],
   "exclude": ["node_modules"]
 }
